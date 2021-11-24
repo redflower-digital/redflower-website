@@ -1,0 +1,76 @@
+.avantages {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(60, 60, 60);
+    align-items: center;
+}
+
+.advantages {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avantages svg {
+    height: 18px;
+    fill: #ff0000;   
+}
+
+.contentTable {
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: inline-flexbox;
+    left: 50%;
+    width: 90%;
+}
+
+.avantages
+{
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.advantagesList {
+    text-align: left;
+}
+
+.advantagesTitle {
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 40%;
+    padding-left: 5px;
+}
+
+.advantagesColumn {
+    font-weight: 900;
+    font-size: 14px;
+    background: rgb(32, 32, 32);
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+}
+
+.true, .false {
+    text-align: center;
+}
+
+.true svg{
+    fill: rgb(0, 200, 0);
+    height: 16px;
+}
+
+.false svg{
+    fill: #ff0000;
+    height: 16px;
+}

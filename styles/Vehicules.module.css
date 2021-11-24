@@ -1,0 +1,183 @@
+.vehicules {
+    margin-bottom: 80px;
+}
+
+.vehiculesElementHeader {
+    margin: 0;
+    width: 100%;
+    height: 40vw;
+    max-height: 450px;
+    background-image: url('../public/img/vehicule1.jpg');
+    background-size: cover;
+    background-position: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 12px 0 rgb(190, 190, 190);
+}
+
+.elementTitle {
+    position: absolute;
+    margin-top: 38vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(252, 40, 40, 0.548);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    box-shadow: 0 4px 16px 0 rgba(238, 22, 22, 0.37);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+}
+
+.elementText {
+    margin: 0 auto;
+    width: 85%;
+    font-size: 16px;
+    color: rgb(107, 106, 106);
+    text-align: left;
+    text-justify: auto;
+}
+
+.vehiculesCategories {
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(105, 105, 105, 0.65);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    box-shadow: 0 4px 16px 0 rgb(190, 190, 190);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+}
+
+.cardVehicule {
+    margin: 0 auto;
+    color: #000;
+    width: 350px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;   
+}
+
+.monteMeubles {
+    position: absolute;
+    height: 110%;
+    left: 0;
+    bottom: -10%;
+}
+
+.remorque2r {
+    position: absolute;
+    height: 110%;
+    left: -5%;
+    bottom: -10%;
+}
+
+.remorque4r {
+    position: absolute;
+    height: 110%;
+    left: 0%;
+    bottom: -10%;
+}
+
+.vehiculeTitle {
+    position: absolute;
+    top: -15%;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 10px;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: linear-gradient(45deg, #f88787 20%, #FF0000 95%);
+}
+
+.textContainer {
+    position: absolute;
+    width: 55%;
+    right: 0;
+    top: 20%;
+    height: 80%;
+    padding: 10px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.vehiculeText {
+    font-size: 12px;
+    color: rgb(107, 106, 106);
+    text-align: right;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.vehiculeText svg {
+    fill: #07df85;
+    height: 12px;
+}
+
+@media screen and (min-width: 730px) {
+    .cardVehicule {
+        width: 450px;
+        height: 150px;
+    }
+
+    .vehiculeTitle {
+        padding: 10px 15px;
+    }
+
+    .vehiculeTitle {
+        font-size: 18px;
+    }
+
+    .vehiculeText {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .remorque4r {
+        height: 100%;
+        left: -3%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .elementTitle {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .elementTitle {
+        margin-top: 430px;
+    }
+}

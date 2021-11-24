@@ -1,0 +1,97 @@
+.modalOverlaySubmit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+}
+
+.modalWrapperSubmit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.modalSubmit {
+    z-index: 90;
+    background: white;
+    position: relative;
+    margin: 40% auto;
+    border-radius: 20px;
+    height: 320px;
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 8px 32px 0 rgb(138, 138, 138);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.logoModalSubmit {
+    margin: -10px auto;
+    display: flex;
+    justify-content: center;
+    min-height: 40%;
+    width: 100%;
+    position: relative;
+}
+
+.logoCovidSubmit {
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+.modalContentSubmit {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(107, 106, 106);
+    text-justify: auto;
+}
+
+.modalContentSubmit span {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.modalHeaderSubmit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalCloseButtonSubmit {
+    width: 40px;
+    background: none;
+    margin-left: 85%;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .3;
+    margin-top: 0;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border: none;
+    color: #fd5555;
+}
+
+.animationSubmit {
+    height: 100px;
+}

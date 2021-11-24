@@ -1,0 +1,130 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 400;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(40, 40, 40, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    z-index: 1050;
+    background: white;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -60%);
+    border-radius: 20px;
+    width: 90vw;
+    height: 620px;
+    max-width: 650px;
+    max-height: 700px;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 8px 32px 0 rgb(138, 138, 138);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: fixed;
+}
+
+.logoModal {
+    position: absolute;
+    margin: -10px auto;
+    display: flex;
+    justify-content: center;
+    height: 60vw;
+    max-height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.logoCovid {
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+.modalContent {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: rgb(107, 106, 106);
+}
+
+.modalContent span {
+    color: #ff0000;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.modalHeader {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.modalCloseButton {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: .3;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    z-index: 10;
+}
+
+.covidContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.animation1, .animation2, .animation3, .animation4 {
+    width: 150px;
+    height: 90px;
+}
+
+@media screen and (max-width: 760px) {
+    .modal {
+        margin: 20vw auto;
+    }
+}
+
+
+@media screen and (min-width: 760px) {
+    .modalContent {
+        font-size: 14px;
+    }
+    .modal {
+        margin: 10vw auto;
+        max-height: 80vw;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .modalContent {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .modalContent {
+        font-size: 21px;
+    }
+}

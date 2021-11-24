@@ -1,0 +1,220 @@
+.footer {
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    margin-top: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:rgb(107, 106, 106) 0px 1px 10px;
+    
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.compagny {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.compagnyName {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ececec;
+    text-shadow: 
+        0 0 1px #FF0000,
+        0 0 1px #FF0000,
+        0 0 1px #FF0000,
+        0 0 1px #FF0000,
+        0 0 1px #FF0000,
+        0 0 1px #FF0000,
+        0 0 1px #FF0000,
+        0 0 1px #FF0000,
+        0 0 1px #FF0000;
+        filter: drop-shadow(0 0 0.02rem #fff);
+}
+
+.adresse {
+    font-size: 14px;
+    margin: 0;
+    color: #ececec;
+    cursor: pointer;
+}
+
+.googleLink {
+    text-decoration: none;
+}
+
+.locationLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.locationLogo svg, .phone svg, .mail svg{
+    height: 18px;
+    fill: #ff0000;
+}
+
+.footerPhone, .footerMail {
+    text-decoration: none;
+}
+
+.footerContact  {
+    margin-top: 15px;
+}
+
+.phone, .mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #ececec;
+    font-size: 14px;
+}
+
+.contactPhone {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contactMail {
+    margin: 0;
+}
+
+.horaires {
+    margin-top: 25px;
+}
+
+.contactHours {
+    margin: 0;
+    color: #ececec;
+    font-size: 14px;
+}
+
+.footerSection {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.mail svg {
+    margin-right: 5px;
+}
+
+.menuFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 95%;
+}
+
+.footerLink {
+    background: none;
+    border: none;
+    width: 60%;
+    padding: 0px 5px;
+    font-size: 14px;
+    color: #ececec;
+    margin-top: 10px;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #ececec;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    z-index: 250;
+}
+
+.instagram {
+    width:50px; 
+    height:50px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    background-position: 70% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.15rem #fff);
+}
+
+.facebook {
+    width:50px; 
+    height:50px;
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.15rem #fff);
+  }
+
+.instagram svg, .facebook svg {
+    fill: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .socialLinks {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .menuFooter {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerLink {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .footerLink:last-child {
+        text-align: right;
+    }
+
+    .compagnyName {
+        font-size: 22px;
+    }
+
+    .contactHours, .contactPhone, .contactHours, .adresse {
+        font-size: 16px;
+    }
+
+    .footerLink {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,113 @@
+.cardVehicule {
+    margin: 0 auto;
+    color: #000;
+    width: 350px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;   
+}
+
+.vehicule10m {
+    position: absolute;
+    height: 110%;
+    left: 0%;
+    bottom: -5%;
+}
+
+.vehicule6m {
+    position: absolute;
+    height: 140%;
+    left: -8%;
+    bottom: -20%;
+}
+
+.vehicule30m {
+    position: absolute;
+    height: 100%;
+    left: 3%;
+    top: -5%;
+    
+}
+
+.vehiculeTitle {
+    position: absolute;
+    top: -15%;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 10px;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: linear-gradient(45deg, #f88787 20%, #FF0000 95%);
+}
+
+.textContainer {
+    position: absolute;
+    width: 55%;
+    right: 0;
+    top: 20%;
+    height: 80%;
+    padding: 10px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.vehiculeText {
+    font-size: 12px;
+    color: rgb(107, 106, 106);
+    text-align: right;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.vehiculeText svg {
+    fill: #07df85;
+    height: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 730px) {
+    .cardVehicule {
+        width: 450px;
+        height: 150px;
+    }
+
+    .vehiculeTitle {
+        padding: 10px 15px;
+    }
+
+    .vehiculeTitle {
+        font-size: 18px;
+    }
+
+    .vehicule6m {
+        height: 130%;
+        left: -5%;
+        top: -15%;
+    }
+
+    .vehiculeText {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,206 @@
+.Navbar {
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fff;
+    box-shadow:rgb(107, 106, 106) 0px 1px 10px;
+    z-index: 100;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menuIcon {
+    cursor: pointer;
+}
+
+.navMenu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+
+.navLinks {
+    color: #6a6a6a;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 0.5rem 1rem;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;  
+    letter-spacing: .5px;
+}
+
+a.navLinks {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out 0.2s;
+}
+
+.navLinks:hover, .navLinks:active {
+    color: #ff0000;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .NavbarItems {
+        position: relative;
+    }
+
+    .navMenu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: auto;
+        top: 80px;
+        right: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .active {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        top: 80px;
+        right: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        margin: 0;
+        padding: 15px;
+        right: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        justify-content: flex-start;
+        background-color: #fff;
+        box-shadow:rgb(107, 106, 106) 0px 1px 10px;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 20px;
+        list-style: none;
+    }
+
+    .navLinks {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .menuIcon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 80%);
+        font-size: 1.8rem;
+        fill: rgb(107, 106, 106);
+    }
+} 
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.instagram {
+    width:40px; 
+    height:40px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    background-position: 70% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.25rem #cc2366);
+}
+
+.facebook {
+    width:40px; 
+    height:40px;
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.25rem #5780d8);
+  }
+
+.instagram svg, .facebook svg {
+    fill: #fff;
+}
+
+@media screen and (min-width: 650px) {
+    a.navLinks {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .menuIcon {
+        display: none;
+    }
+
+    .navMenu {
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px;
+        height: 80px;
+    }
+
+    a.navLinks {
+        margin-left: 35px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .linkBorder {
+        margin-left: 30px;
+        width: 0px;
+    }
+
+    .instagram, .facebook {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 25px;
+    }
+}

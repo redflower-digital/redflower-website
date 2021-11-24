@@ -1,0 +1,576 @@
+.home {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.imageAcceuil {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    max-height: 430px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:rgb(107, 106, 106) 0px 1px 10px;
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    object-fit: cover;
+}
+
+.homeHeader {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.homeHeaderContainer {
+    position: relative;
+}
+
+.homeBody {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.homeTitle {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ff0000;
+    top: -10px;
+    text-align: left;
+    margin-left: 15px;
+    text-shadow: 2px 2px 3px rgb(107, 106, 106);
+}
+
+.textContainer {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    filter: drop-shadow(0 0 3rem rgb(107, 106, 106));
+}
+
+.presentation {
+    left: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    top: 20%;
+    text-align: center;
+    filter: drop-shadow(3px 3px 5px #000);
+}
+
+.asterisque {
+    color:#ff0000;
+}
+
+.asterisqueDescription {
+    color: #ff0000;
+    font-size: 12px;
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -15px;
+    
+}
+
+.presentationContainer {
+    overflow-x: scroll;
+    display: flex;
+    scrollbar-width: none;
+    width: 100vw;
+    margin-left: 0;
+}
+
+.presentationContainer::after {
+    content: "";
+    flex: 0 0 25px;
+}
+
+.cardPresentationE {
+    height: 150px;
+    width: 335px;
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow:rgb(107, 106, 106) 0px 1px 10px;
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cardPresentationS {
+    height: 150px;
+    width: 335px;
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow:rgb(107, 106, 106) 0px 1px 10px;
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cardPresentationSolidarite {
+    position: absolute;
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.cardPresentationEco {
+    position: absolute;
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.cardTitle {
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    z-index: 10;
+    font-weight: 600;
+}
+
+.cardDescription {
+    color: #fff;
+    font-weight: 400;
+    width: 50%;
+    font-size: 12px;
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    margin-top: 5px;
+    z-index: 10;
+}
+
+.cardButton {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 6px;
+    background: none;
+    color: rgba( 255, 255, 255, 0.95 );
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 2px rgba( 255, 255, 255, 0.95 );
+}
+
+.cardButton:hover, .cardButton:active {
+    background-color: rgba( 255, 255, 255, 0.95 );
+    border: solid 2px rgba( 255, 255, 255, 0.95 );
+    color: #ff0000;
+}
+
+.animationHome {
+    height: 50px;
+    margin-top: -10px;
+}
+
+.titleSection1, .titleSection2, .titleSection3 {
+    width: 85%;
+    margin: 0;
+    padding-top: 30px;
+    text-align: left;
+    padding-right: 5%;
+    color: rgb(30, 30, 30);
+    font-family: 'Lalezar', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.4rem;
+}
+
+.divider {
+    display: inline-block;
+    margin-right: 10px;
+    height: 20px;
+    border-left: 8px solid #ff0000;
+    box-shadow: -.5px 2px 3px #ff2121;    
+}
+
+.introduction {
+    width: 85%;
+    font-size: 16px;
+    color: rgb(107, 106, 106);
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+    text-justify: auto;
+}
+
+.introduction span {
+    color: #ff0000;
+}
+
+.introduction.paragraphe {
+    margin-top: 0;
+}
+
+.introductionHome {
+    width: 85%;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(107, 106, 106);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-justify: auto;
+}
+
+.introductionHome span {
+    color: #ff0000;
+}
+
+.introductionHomeLine {
+    width: 85%;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(107, 106, 106);
+    margin-bottom: 10px;
+    text-align: left;
+    text-justify: auto;
+    margin-top: 0px;
+}
+
+.introduction strong {
+    color: rgb(60, 60, 60);
+}
+
+.logoPartner, .logoPartnerAltitude {
+    margin: 20px;
+    width: 120px;
+}
+
+.logoContainer1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ecology, .solidarity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#main {
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 350px;
+    width: 100vw;
+    max-width: 1100px;
+    position: relative;
+    display: inline-flex;
+}
+
+.d1 {
+    height: 100px;
+    width: 150px;
+    -webkit-box-shadow: 0px 0px 25px rgba(0,0,0,.5);
+    box-shadow: 0px 0px 25px rgba(0,0,0,.5);
+    position: absolute;
+    top: 150px;
+    background-image: url('../public/img/reloc1.jpg');
+    background-size: 500px 325px;
+    background-position: 0px -150px;
+    z-index: 2;
+}
+
+.d2 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background-image: url('../public/img/reloc1.jpg');
+    background-size: 500px 325px;
+    background-position: -50px -40px;
+    z-index: 1;
+}
+
+.d3 {
+    height: 300px;
+    width: 200px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    background-image: url('../public/img/reloc1.jpg');
+    background-size: 500px 325px;
+    background-position: -150px 0px;
+    z-index: 3;
+}
+
+.d4 {
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    background-image: url('../public/img/reloc1.jpg');
+    background-size: 500px 325px;
+    background-position: -250px -30px;
+    z-index: 1;
+}
+
+.d5 {
+    position: absolute;
+    height: 150px;
+    width: 100px;
+    background: linear-gradient(45deg, #f88787 20%, #FF0000 95%);
+    box-shadow: 0px 6px 8px #ff2121;
+    left: 400px;
+}
+
+.d5::before {
+    content: '';
+    display: inline-block;
+    background: linear-gradient(45deg, #f88787 20%, #FF0000 95%);
+    width: 100px;
+    height: 10px;
+    transform: skewX(-40deg);
+    position: absolute;
+    top: -10px;
+    left: 4px;
+    box-shadow: 2px 6px 8px #ff2121;
+  }
+  
+  .d5::after {
+    content: '';
+    display: inline-block;
+    background: linear-gradient(45deg, #f88787 20%, #FF0000 95%);
+    width: 8px;
+    height: 150px;
+    transform: skewY(-50deg);
+    position: absolute;
+    top: -5px;
+    left: 100%;
+    box-shadow: 2px 6px 8px #ff2121;
+  }
+
+.presentation2 {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(75, 75, 75);
+    top: 10%;
+    text-align: left;
+    z-index: 20;
+    margin-top: 5%;
+    left: 50px;
+}
+
+.dContener {
+    height: 250px;
+    width: 550px;
+    position: relative;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 500px) {
+    .presentation {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .presentation {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .imageAcceuil {
+        width: 100vw;
+        height: auto;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+    .introductionSolidarity, .introductionEcology {
+        width: 40%;
+        margin: 0;
+    }
+
+    .ecology {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+        margin-top: 25px;
+        margin-left: 40px;
+        margin-right: 40px;
+        max-width: 790px;
+    }
+
+    .solidarity {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 50px;
+        max-width: 790px;
+    }
+
+    .cardPresentationE {
+        height: 160px;
+        width: 450px;
+        margin-left: 20px;
+    }
+
+    .cardPresentationS {
+        height: 160px;
+        width: 450px;
+        margin-right: 20px;
+    }
+
+    .cardPresentationSolidarite {
+        top: 0;
+    }
+
+    .cardPresentationEco {
+        top: 0;
+    }
+
+    .presentationContainer {
+        margin-left: 10%;
+    }
+    .presentation {
+        font-size: 28px;
+    }
+    .introductionHome {
+        font-size: 16px;
+    }
+    .introduction {
+        font-size: 16px;
+    }
+
+    .titleSection1, .titleSection2, .titleSection3 {
+        font-size: 35px;
+    }
+
+    .divider {
+        height: 25px;
+        border-left: 12px solid #ff0000;
+        box-shadow: -.8px 3px 6px #ff2121;
+    }
+
+    .presentationContainer::after {
+        flex: 0 0 50px;
+    }
+
+    .cardTitle {
+        font-size: 20px;
+    }
+
+    .cardDescription {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .cardTitle {
+        font-size: 18px;
+    }
+
+    .cardDescription {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .presentation {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .introductionHome, .introductionHomeLine {
+        font-size: 18px;
+    }
+    .introduction {
+        font-size: 18px;
+    }
+
+    .titleSection1, .titleSection2, .titleSection3 {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+    .divider {
+        height: 24px;
+        border-left: 12px solid #ff0000;
+    }
+    .presentationContainer {
+        overflow: unset;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0px;
+        justify-content: space-around;
+        padding-left: 5%;
+    }
+
+    .cardTitle {
+        font-size: 20px;
+    }
+
+    .cardDescription {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .cardTitle {
+        font-size: 18px;
+    }
+
+    .cardDescription {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .animationHome {
+        display: none;
+    }
+    .solidarity, .ecology {
+        max-width: 930px;
+    }
+
+    .homeHeaderContainer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #main {
+        display: none;
+    }
+}
