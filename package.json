@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm build && npm export",
+    "build": "next build && next export",
     "start": "next start",
     "postbuild": "next-sitemap --config next-sitemap.config.js"
   },
