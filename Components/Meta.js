@@ -4,14 +4,14 @@ const Meta = ({ title, keywords, description }) => {
   return (
     <Head>
       <title>{title}</title>
-      <meta http-equiv="content-language" content="fr"/>
+      <meta httpEquiv="content-language" content="fr"/>
       <meta name="language" content="fr" />
       <meta name='description' content={description} />
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='keywords' content={keywords} />
       <meta charSet='utf-8' />
       <link rel="shortcut icon" type="image/png" href="/_next/static/favicon.ico" title="icone"/>
-      <meta https-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta httpsEquiv="X-UA-Compatible" content="IE=edge"/>
       <meta property="og:title" content="Redflower débarras" />
       <meta property="og:description" content="Votre entreprise de débarras en Auvergne-Rhône-Alpes" />
       <meta property="og:url" content="https://redflower-debarras.fr/" />
