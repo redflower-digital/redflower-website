@@ -5,6 +5,7 @@ const Meta = ({ title, keywords, description }) => {
     <Head>
       <title>{title}</title>
       <meta http-equiv="content-language" content="fr"/>
+      <meta name="language" content="fr" />
       <meta name='description' content={description} />
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='keywords' content={keywords} />
@@ -21,6 +22,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta name="msnbot" content="index,follow"/>
       <meta name="ICBM" content="45.78498101131291, 4.7487209759413815" />
       <meta name="Geo.region" content="FR-69" />
+      <meta name="msnbot" content="index,follow"/>
     </Head>
   )
 }
