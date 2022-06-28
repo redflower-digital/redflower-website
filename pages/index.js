@@ -56,11 +56,6 @@ export default function Index(props) {
         <meta property="og:url" content="https://redflower-debarras.fr/" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="canonical"
-          href="https://www.redflower-debarras.fr/"
-          title="Débarras maison, appartement gratuit à Lyon (69) Rhône-Alpes"
-        />
         <meta name="geo.placename" content="Lyon" />
         <meta name="msnbot" content="index,follow" />
         <meta name="ICBM" content="45.78498101131291, 4.7487209759413815" />
