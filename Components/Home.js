@@ -141,7 +141,6 @@ export default function Home() {
         <p className={homeStyles.asterisqueDescription}>
           <span className={homeStyles.asterisque}>*</span> TVA récupérable
         </p>
-        <div className={homeStyles.carouselContainer}>
         <motion.div
           className={homeStyles.carousel}
           ref={serviceCarousel}
@@ -213,7 +212,7 @@ export default function Home() {
         </motion.div>
         </motion.div>
         </motion.div>
-        </div>
+     
         <div className={homeStyles.animationHome}>
           <Lottie
             direction={-1}
@@ -230,7 +229,6 @@ export default function Home() {
           permanente, nous proposons des services uniques, et des solutions
           adaptées ayant démontré leur efficacité durant nos années d'exercices.
         </p>
-        <div className={homeStyles.carouselContainer}>
         <motion.div
           className={homeStyles.carousel}
           ref={specialCarousel}
@@ -310,7 +308,6 @@ export default function Home() {
         </motion.div>
             </motion.div>
             </motion.div>
-        </div>
         <h3 className={homeStyles.titleSection3}>
           <span className={homeStyles.divider}></span>Les avantages
         </h3>
