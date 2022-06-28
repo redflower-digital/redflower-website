@@ -29,17 +29,10 @@ function Commitments() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content={keywords} />
         <meta charSet="utf-8" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet"/>
         <link
           rel="shortcut icon"
           type="image/png"
-          href="/_next/static/favicon.ico"
+          href="/favicon.ico"
           title="icone"
         />
         <meta property="og:title" content="Redflower débarras" />
