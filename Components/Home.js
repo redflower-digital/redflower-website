@@ -39,16 +39,20 @@ export default function Home() {
       width: undefined,
       height: undefined,
     });
+
+    function resolveSwipper() {
+      return new Promise(resolve => {
+        setTimeout(() => {
+          setServiceWidth(serviceCarousel.current.scrollWidth - serviceCarousel.current.offsetWidth + 20);
+          setSpecialWidth(
+            specialCarousel.current.scrollWidth - specialCarousel.current.offsetWidth + 20
+          );
+        }, 300);
+      });
+    }
   
     useEffect(() => {
-      setServiceWidth(
-        serviceCarousel.current.scrollWidth - serviceCarousel.current.offsetWidth + 20
-      );
-  
-      setSpecialWidth(
-        specialCarousel.current.scrollWidth - specialCarousel.current.offsetWidth + 20
-      );
-      
+      resolveSwipper()
       if (typeof window !== 'undefined') {
         function handleResize() {
           setWindowSize({
