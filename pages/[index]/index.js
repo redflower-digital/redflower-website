@@ -38,7 +38,7 @@ export default function Index({city}) {
 
   Meta.defaultProps = {
     title:
-      `Débarras ${city.name}, | Entreprise de debarras d appartement, maison, locaux, gratuit, vide maison et appartement | Rachat de biens`,
+      `Débarras ${city.name}, | Entreprise de debarras d appartement, maison, locaux, gratuit, débarrassage maison et appartement | Rachat de biens`,
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:
