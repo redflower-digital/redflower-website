@@ -1,10 +1,11 @@
 import React from 'react';
 import VehiculesCards from './VehiculesCards';
-import monteMeuble from "../public/img/Vehicules/monte-meuble.png";
-import remorque2 from "../public/img/Vehicules/remorque2r.png";
-import remorque4 from "../public/img/Vehicules/remorque4r1.png";
 import vehiculesStyles from "../styles/Vehicules.module.css";
 import { Plus } from "../public/Icons/Plus";
+
+const monteMeuble = "/img/Vehicules/monte-meuble.png";
+const remorque2 = "/img/Vehicules/remorque2r.png";
+const remorque4 = "/img/Vehicules/remorque4r1.png";
 
 function Vehicules() {
     return (

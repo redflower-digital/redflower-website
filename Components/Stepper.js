@@ -38,14 +38,14 @@ const ColorlibConnector = withStyles({
   line: {
     height: 3,
     border: 0,
-    backgroundColor: '#eaeaf0',
+    backgroundColor: '#6b6a6a',
     borderRadius: 1,
   },
 })(StepConnector);
 
 const useColorlibStepIconStyles = makeStyles({
   root: {
-    backgroundColor: '#ccc',
+    backgroundColor: '#6b6a6a',
     zIndex: 1,
     fill: '#fff',
     width: 50,

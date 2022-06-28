@@ -40,3 +40,8 @@ form {
 form {
   margin-top: 150px;
 }
+
+img {
+  pointer-events: none;
+  cursor: default;
+}

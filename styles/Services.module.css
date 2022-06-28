@@ -55,7 +55,7 @@
 }
 
 .introductionServices span {
-    color: #ff0000;
+    color: #c92a2a;
 }
 
 .animationHome {
@@ -80,7 +80,7 @@
     padding: 6px;
     background: none;
     white-space: nowrap;
-    color: #aaa;
+    color: #6b6a6a;
     font-weight: 900;
     cursor: pointer;
     border: none;
@@ -103,7 +103,7 @@
     padding: 6px;
     background: none;
     white-space: nowrap;
-    color: #aaa;
+    color: #6b6a6a;
     font-weight: 900;
     border: none;
     display: flex;

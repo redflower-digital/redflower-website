@@ -1,9 +1,10 @@
 import React from "react";
-import vehicule6m from "../public/img/Vehicules/6m3.png";
-import vehicule10m from "../public/img/Vehicules/10m3.png";
-import vehicule30m from "../public/img/Vehicules/30m3(1).png";
 import vehiculesCardsStyle from '../styles/VehiculesCards.module.css';
 import { Plus } from "../public/Icons/Plus";
+
+const vehicule6m = "img/Vehicules/6m3.png";
+const vehicule10m = "img/Vehicules/10m3.png";
+const vehicule30m = "img/Vehicules/30m3(1).png";
 
 function VehiculesCards() {
   return (

@@ -1,21 +1,19 @@
 import styles from '../styles/Layout.module.css';
-import Meta from './Meta';
 import Navbar from './Navbar/Nav';
 import Footer from './Footer';
 
-function Layout({children}) {
+export default function Layout({children}) {
     return (
         <>
-            <Meta />
             <Navbar />
-            <div className={styles.container}>
-                <main className={styles.main}>
+            <main className={styles.container}>
+                <div className={styles.main}>
                     {children}
-                </main> 
-            </div>
+                </div> 
+            </main>
             <Footer />
         </>
     )
 }
 
-export default Layout
+

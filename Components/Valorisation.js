@@ -1,6 +1,6 @@
 import React from 'react';
-import HistoireSF from "../public/img/histoire-sans-fin.jpg";
-import Meubles from '../public/img/valorisation.png';
+const HistoireSF = "/img/histoire-sans-fin.jpg";
+const Meubles = '/img/valorisation.png';
 import {Check} from "../public/Icons/Check";
 import valorisationStyles from '../styles/ValorisationElement.module.css';
 

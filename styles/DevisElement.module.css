@@ -25,7 +25,7 @@
     margin-top: 38vw;
     padding-left: 20px;
     padding-right: 20px;
-    background: rgba(252, 40, 40, 0.548);
+    background: rgba(252, 40, 40, 0.748);
     backdrop-filter: blur( 2px );
     -webkit-backdrop-filter: blur( 2px );
     box-shadow: 0 4px 16px 0 rgba(238, 22, 22, 0.37);
@@ -46,7 +46,7 @@
 }
 
 .elementText span {
-    color: #ff0000;
+    color:#c92a2a;
     font-weight: 600;
 }
 

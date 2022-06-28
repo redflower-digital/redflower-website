@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import Image from "next/image";
 import { MenuItems } from "./MenuItems";
-import Logo from "../../public/img/logo-redflower.png";
 import {BurgerMenu} from "../../public/Icons/BurgerMenu";
 import {Close} from "../../public/Icons/Close";
 import Link from 'next/link';
 import SocialLinks from '../SocialLinks';
 import navStyles from '../../styles/Nav.module.css';
+
+const Logo = "/img/logo-redflower.png";
 
 export default function Nav() {
 
@@ -18,7 +20,14 @@ export default function Nav() {
     return (
         <nav className={navStyles.Navbar}>
             <Link href='/'>
-                <img className={navStyles.logo} src={Logo} alt="logo redflower débarras"/>
+            <div className={navStyles.logo}>
+              <Image              
+                alt="logo redflower débarras"
+                src={Logo}
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
             </Link>
             <div className={navStyles.menuIcon} onClick={handleClick}>
                 {menuOpen ? <Close /> : <BurgerMenu />}

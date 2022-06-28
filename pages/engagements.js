@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Head from "next/head";
 import Ecology from "../Components/Ecology";
 import Solidarity from "../Components/Solidarity";
 import commitmentsStyles from '../styles/Commitments.module.css';
@@ -18,8 +19,62 @@ function Commitments() {
     }
   }
 
+  const Meta = ({ title, keywords, description }) => {
+    return (
+      <Head>
+        <title>{title}</title>
+        <meta httpEquiv="content-language" content="fr" />
+        <meta name="language" content="fr" />
+        <meta name="description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content={keywords} />
+        <meta charSet="utf-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet"/>
+        <link
+          rel="shortcut icon"
+          type="image/png"
+          href="/_next/static/favicon.ico"
+          title="icone"
+        />
+        <meta property="og:title" content="Redflower débarras" />
+        <meta
+          property="og:description"
+          content="Votre entreprise de débarras en Auvergne-Rhône-Alpes"
+        />
+        <meta property="og:url" content="https://redflower-debarras.fr/" />
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="canonical"
+          href="https://www.redflower-debarras.fr/engagements"
+          title="Débarras maison, appartement gratuit à Lyon (69) Rhône-Alpes"
+        />
+        <meta name="geo.placename" content="Lyon" />
+        <meta name="msnbot" content="index,follow" />
+        <meta name="ICBM" content="45.78498101131291, 4.7487209759413815" />
+        <meta name="Geo.region" content="FR-69" />
+      </Head>
+    );
+  };
+  
+  Meta.defaultProps = {
+    title:
+    "Débarras & écologie | tri | recyclage | encombrants",
+    keywords:
+      "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
+    description:
+      "Redflower débarras est engagé dans une démarche éco-responsable, par le biais de tris sélectifs, mais également dans le cadre de la lutte contre le gaspillage et la surconsommation via des dons associatifs et le fait de donner une seconde vie à vos objet.",
+  };
+
   return (
     <div className={commitmentsStyles.commitments}>
+      <Meta/>
       <div className={commitmentsStyles.headerContainer}>
         <div className={commitmentsStyles.headerCommitments}/>
       </div>

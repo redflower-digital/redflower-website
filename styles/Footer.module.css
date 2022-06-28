@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(77, 77, 77);
     margin-top: 70px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -28,17 +28,17 @@
     padding-bottom: 15px;
     font-size: 20px;
     font-weight: 600;
-    color: #ececec;
+    color: #ffffff;
     text-shadow: 
-        0 0 1px #FF0000,
-        0 0 1px #FF0000,
-        0 0 1px #FF0000,
-        0 0 1px #FF0000,
-        0 0 1px #FF0000,
-        0 0 1px #FF0000,
-        0 0 1px #FF0000,
-        0 0 1px #FF0000,
-        0 0 1px #FF0000;
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a,
+        0 0 1px #c92a2a;
         filter: drop-shadow(0 0 0.02rem #fff);
 }
 
@@ -61,15 +61,12 @@
 
 .locationLogo svg, .phone svg, .mail svg{
     height: 18px;
-    fill: #ff0000;
+    fill: #f54343;
 }
 
 .footerPhone, .footerMail {
     text-decoration: none;
-}
-
-.footerContact  {
-    margin-top: 15px;
+    line-height: 30px;
 }
 
 .phone, .mail {
@@ -79,6 +76,7 @@
     justify-content: center;
     color: #ececec;
     font-size: 14px;
+    margin-top: 30px;
 }
 
 .contactPhone {
@@ -125,6 +123,7 @@
     width: 60%;
     padding: 0px 5px;
     font-size: 14px;
+    line-height: 30px;
     color: #ececec;
     margin-top: 10px;
     text-align: left;

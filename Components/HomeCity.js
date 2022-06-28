@@ -20,10 +20,8 @@ const special2 = "/img/valorisation1.jpg";
 const special3 = "/img/encombrants.png";
 const special4 = "/img/cartons.png";
 const image1 = "/img/reloc1.jpg";
-const solidarite = "/img/solidarité.jpg";
-const ecolo = "/img/environnement.jpg";
 
-export default function Home() {
+export default function HomeCity({city}) {
   const [serviceWidth, setServiceWidth] = useState(0);
   const [scrollingAnimation, setScrollingAnimation] = useState(true);
   const [specialWidth, setSpecialWidth] = useState(true);
@@ -89,9 +87,11 @@ export default function Home() {
               <h1 className={homeStyles.presentation}>
                 Votre partenaire
                 <br />
-                de débarras
-                <br />
-                en Auvergne-Rhône-Alpes
+                de débarras {city.preName}
+            <br />
+            {city.name}
+            <br />
+            et dans {city.preDep} {city.region}
               </h1>
             </div>
           </div>
@@ -100,9 +100,11 @@ export default function Home() {
           <h1 className={homeStyles.presentation2}>
             Votre partenaire
             <br />
-            de débarras en
+            de débarras {city.preName}
             <br />
-            Auvergne-Rhône-Alpes
+            {city.name}
+            <br />
+            et dans {city.preDep} {city.region}
           </h1>
           <div className={homeStyles.dContener}>
             <div className={homeStyles.d1}></div>
@@ -116,12 +118,14 @@ export default function Home() {
       </div>
       <div className={homeStyles.homeBody}>
         <h2 className={homeStyles.introductionHome}>
-          <span>RedFlower Debarras</span> a pour objectif d’organiser le <strong>débarras</strong> de
-          votre bien commercial ou privé en toutes circonstances.
+          <span>RedFlower</span> intervient et organise le <strong>débarras</strong> de
+          votre bien commercial ou privé {city.preName} <span>{city.name}</span>.
         </h2>
         <h2 className={homeStyles.introductionHomeLine}>
-          Forts de plus de dix années d’expérience, nous vous accompagnons lors de
-          l'<strong>enlèvement</strong> de vos objets sur tous types de superficies.
+          Nous vous accompagnons lors de l'<strong>enlèvement</strong> de vos objets sur tous types de superficies.
+        </h2>
+        <h2 className={homeStyles.introductionHome}>
+          Bénéficiez de l'<strong>intégralité</strong> de nos services {city.preName} <span>{city.name}</span>.
         </h2>
         <h3 className={homeStyles.titleSection1}>
           <span className={homeStyles.divider}></span>Nos services
@@ -306,62 +310,6 @@ export default function Home() {
         </motion.div>
             </motion.div>
             </motion.div>
-        </div>
-        <h3 className={homeStyles.titleSection3}>
-          <span className={homeStyles.divider}></span>Les avantages
-        </h3>
-        <Advantage />
-        <h3 className={homeStyles.titleSection2}>
-          <span className={homeStyles.divider}></span>Entreprise solidaire et engagée
-        </h3>
-        <div className={homeStyles.solidarity}>
-          <p className={homeStyles.introduction}>
-            Lors de nos <strong>débarras</strong>, nous travaillons de concert avec des
-            associations, des gestes simples tels que les dons nous permettent
-            de soutenir l'action sociale et les plus démunis.
-          </p>
-          <div className={homeStyles.cardPresentationS}>
-            <h3 className={homeStyles.cardTitle}>Solidarité</h3>
-            <p className={homeStyles.cardDescription}>
-              Participez à l'économie sociale et solidaire.
-            </p>
-            <div  className= {homeStyles.cardPresentationSolidarite}>
-            <Image
-              alt="solidarité"
-              src={solidarite}
-              layout="fill"
-              objectFit="cover"
-            />
-          </div>
-            <a href="/engagements" className={homeStyles.cardLinkSolidarite}>
-              <button className={homeStyles.cardButton}>En savoir plus</button>
-            </a>
-          </div>
-        </div>
-        <div className={homeStyles.ecology}>
-          <p className={homeStyles.introduction}>
-            Dans un monde où la consommation et la surconsommation vont de
-            pair, nous accordons une grande place à l’aspect environnemental de
-            notre activité. Nous nous employons à réaliser un tri détaillé de
-            tous les déchets pour que chaque élément soit recyclé.
-          </p>
-          <div className={homeStyles.cardPresentationE}>
-            <h3 className={homeStyles.cardTitle}>Environnement</h3>
-            <p className={homeStyles.cardDescription}>
-              Limitez votre empreinte écologique.
-            </p>
-            <div  className= {homeStyles.cardPresentationEco}>
-            <Image
-              alt="écologie"
-              src={ecolo}
-              layout="fill"
-              objectFit="cover"
-            />
-          </div>
-            <a href="/engagements" className={homeStyles.cardLink}>
-              <button className={homeStyles.cardButton}>En savoir plus</button>
-            </a>
-          </div>
         </div>
         <h3 className={homeStyles.titleSection3}>
           <span className={homeStyles.divider}></span>Nos partenaires
