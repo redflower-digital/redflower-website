@@ -17,7 +17,7 @@ export default function Index({city}) {
         <link
           rel="shortcut icon"
           type="image/png"
-          href="/_next/static/favicon.ico"
+          href="/favicon.ico"
           title="icone"
         />
         <meta property="og:title" content="Redflower débarras" />
