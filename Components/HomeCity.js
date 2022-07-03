@@ -85,11 +85,13 @@ export default function HomeCity({city}) {
           </div>
             <div className={homeStyles.textContainer}>
               <h1 className={homeStyles.presentation}>
-                Votre partenaire
+                Votre entreprise
                 <br />
-                de débarras {city.preName}
+                de débarras
+                <br />
+            maison et appartement
             <br />
-            {city.name}
+            {city.preName} {city.name}
             <br />
             et dans {city.preDep} {city.region}
               </h1>
@@ -98,11 +100,13 @@ export default function HomeCity({city}) {
         </div>
         <div id={homeStyles.main}>
           <h1 className={homeStyles.presentation2}>
-            Votre partenaire
+            Votre entreprise
             <br />
-            de débarras {city.preName}
+            de débarras
             <br />
-            {city.name}
+            maison et appartement
+            <br />
+            {city.preName} {city.name}
             <br />
             et dans {city.preDep} {city.region}
           </h1>

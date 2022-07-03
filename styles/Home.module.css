@@ -64,7 +64,6 @@
     font-size: 20px;
     font-weight: 600;
     color: #fff;
-    top: 20%;
     text-align: center;
     filter: drop-shadow(3px 3px 5px #000);
 }
@@ -400,7 +399,7 @@ a .logoPartner div, .logoPartnerAltitude {
     top: 10%;
     text-align: left;
     z-index: 20;
-    margin-top: 5%;
+    margin-top: 0;
     left: 50px;
 }
 
