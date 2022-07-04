@@ -69,7 +69,7 @@ function Specialisation() {
   
   Meta.defaultProps = {
     title:
-    "Rachat & valorisation de biens | Succession | Diogène",
+    "Nos spécialisations: rachat | Succession | Diogène",
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:

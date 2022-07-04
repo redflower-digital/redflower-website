@@ -71,11 +71,11 @@ export default function Index(props) {
   
   Meta.defaultProps = {
     title:
-      "Débarras appartement maison locaux & Rachat de biens | devis gratuit ",
+      "Débarras appartement maison & Rachat de biens | devis gratuit ",
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:
-      "Débarras appartement ou maison sur Lyon, Rhône-Alpes et Sud Bourgogne. Nous intervenons sur tout types de superficies et locaux: appartement, maison, local commercial, cave, grenier, grange, garage...",
+      "Débarras appartement ou maison  en Rhône-Alpes et Sud Bourgogne. Nous intervenons sur tout types de superficies et locaux.",
   };
 
   return (

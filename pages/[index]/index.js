@@ -38,11 +38,11 @@ export default function Index({city}) {
 
   Meta.defaultProps = {
     title:
-      `Débarras maison appartement ${city.name}, | Debarras appartement maison`,
+      `Débarras maison appartement ${city.name} | devis gratuit`,
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:
-      `Débarras maison ou appartement à ${city.name} et dans tout ${city.preDep} ${city.region}. Nous intervenons sur tout types de superficies et locaux: appartement, maison, local commercial, cave, grenier, grange, garage...`,
+      `Débarras sur tout types de superficies et locaux  ${city.preDep} ${city.region}: appartement, maison, local commercial, cave, grenier, grange, garage...`,
   };
 
   return (
