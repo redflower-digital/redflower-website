@@ -56,9 +56,9 @@ function Services() {
         <meta property="og:title" content="Redflower débarras" />
         <meta
           property="og:description"
-          content="Votre entreprise de débarras en Auvergne-Rhône-Alpes"
+          content="Debarras appartement, maison, locaux"
         />
-        <meta property="og:url" content="https://redflower-debarras.fr/" />
+        <meta property="og:url" content="https://redflower-debarras.fr/services" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="geo.placename" content="Lyon" />

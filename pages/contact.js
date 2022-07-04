@@ -31,9 +31,9 @@ function Contact() {
         <meta property="og:title" content="Redflower débarras" />
         <meta
           property="og:description"
-          content="Votre entreprise de débarras en Auvergne-Rhône-Alpes"
+          content="REDFLOWER DEBARRAS Lyon | Contactez-nous"
         />
-        <meta property="og:url" content="https://redflower-debarras.fr/" />
+        <meta property="og:url" content="https://redflower-debarras.fr/contact" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="geo.placename" content="Lyon" />

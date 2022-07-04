@@ -51,7 +51,7 @@ export default function Index(props) {
         <meta property="og:title" content="Redflower débarras" />
         <meta
           property="og:description"
-          content="Votre entreprise de débarras en Auvergne-Rhône-Alpes"
+          content="Débarras appartement maison & Rachat de biens | devis gratuit"
         />
         <meta property="og:url" content="https://redflower-debarras.fr/" />
         <meta property="og:type" content="website" />
@@ -71,7 +71,7 @@ export default function Index(props) {
   
   Meta.defaultProps = {
     title:
-      "Débarras appartement maison & Rachat de biens | devis gratuit ",
+      "Débarras appartement maison & Rachat de biens | devis gratuit",
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:

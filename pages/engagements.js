@@ -38,9 +38,9 @@ function Commitments() {
         <meta property="og:title" content="Redflower débarras" />
         <meta
           property="og:description"
-          content="Votre entreprise de débarras en Auvergne-Rhône-Alpes"
+          content="Débarras et écologie | tri | recyclage | encombrants"
         />
-        <meta property="og:url" content="https://redflower-debarras.fr/" />
+        <meta property="og:url" content="https://redflower-debarras.fr/engagements" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="geo.placename" content="Lyon" />

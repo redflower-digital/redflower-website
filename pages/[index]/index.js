@@ -23,9 +23,9 @@ export default function Index({city}) {
         <meta property="og:title" content="Redflower débarras" />
         <meta
           property="og:description"
-          content="Votre entreprise de débarras en Auvergne-Rhône-Alpes"
+          content={`Débarras maison appartement ${city.name} | devis gratuit`}
         />
-        <meta property="og:url" content="https://redflower-debarras.fr/" />
+        <meta property={`og:url" content="https://redflower-debarras.fr/${city.slug}`} />
         <meta property="og:type" content="website" />
         <link rel="icon" href="../../favicon.ico" />
         <meta name="geo.placename" content="Lyon" />
