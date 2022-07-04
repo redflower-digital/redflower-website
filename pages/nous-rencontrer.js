@@ -40,11 +40,11 @@ function MeetUs() {
       
       Meta.defaultProps = {
         title:
-        "Du devis au rendez-vous découvrez les étapes de débarras | Rachat de biens | Valorisation de biens",
+        "Du devis au rendez-vous découvrez les étapes du débarras",
         keywords:
           "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
         description:
-          "Découvrez les étapes de nos prestations du débarras simple au débarras de succession, pour syndrome de Diogène ou pour tout rachat et valoraisation de biens. Contactez nous pour obtenir un devis gratuit.",
+          "Découvrez les étapes de nos prestations du débarras (simple, succession, Diogène) et de rachat et valorisation de biens.",
       };
 
     return (

@@ -71,11 +71,11 @@ function Services() {
   
   Meta.defaultProps = {
     title:
-    "Devis gratuit | debarras d'appartement, maison, locaux, vide maison et appartement",
+    "Debarras appartement, maison, locaux",
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:
-      "Obtenez un devis gratuit et sans engagement pour toute intervention de débarrassage. Nous intervenons sur tout types de superficies et locaux: appartement, maison, local commercial, cave, grenier, grange, garage...",
+      "Obtenez un devis gratuit et sans engagement pour toute intervention de débarrassage sur tout types de superficies et locaux.",
   };
 
   return (

@@ -57,7 +57,7 @@ function Commitments() {
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:
-      "Redflower débarras est engagé dans une démarche éco-responsable, par le biais de tris sélectifs, mais également dans le cadre de la lutte contre le gaspillage et la surconsommation via des dons associatifs et le fait de donner une seconde vie à vos objet.",
+      "Nous sommes engagés dans une démarche éco-responsable, par le biais de tris sélectifs, actions de lutte contre le gaspillage, ainsi que des dons associatifs.",
   };
 
   return (
