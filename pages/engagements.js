@@ -43,6 +43,7 @@ function Commitments() {
         <meta property="og:url" content="https://redflower-debarras.fr/engagements" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://redflower-debarras.fr/engagements"/>
         <meta name="geo.placename" content="Lyon" />
         <meta name="msnbot" content="index,follow" />
         <meta name="ICBM" content="45.78498101131291, 4.7487209759413815" />
