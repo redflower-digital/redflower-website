@@ -43,7 +43,7 @@ export default function Index({city}) {
     keywords:
       "débarras, entreprise, appartement, maison, enlèvement, biens, gratuit, rachat, valorisation, diogène, syllogomanie, succession, maison, garage, professionnel, monte-meuble, déménagement, Lyon, 69, 42, saint-etienne, Rhône, Auvergne-Rhône-Alpes, bourgogne",
     description:
-      `Débarras sur tout types de superficies et locaux  ${city.preDep} ${city.region}: appartement, maison, local commercial, cave, grenier, grange, garage...`,
+      `Débarras ${city.preName} ${city.name} sur tout types de superficies et locaux: appartement, maison, local commercial, cave, grenier, grange, garage...`,
   };
 
   return (
