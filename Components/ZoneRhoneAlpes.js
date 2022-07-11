@@ -105,6 +105,7 @@ const departements = [
       { name: "Limonest", slug: "limonest" },
       { name: "Lissieu", slug: "lissieu" },
       { name: "Loire-sur-Rhône", slug: "loire-sur-rhone" },
+      { name: "Lyon", slug: "lyon" },
       { name: "Lyon 1 er", slug: "lyon-69001" },
       { name: "Lyon 2 ème", slug: "lyon-69002" },
       { name: "Lyon 3 ème", slug: "lyon-69003" },

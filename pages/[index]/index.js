@@ -117,6 +117,7 @@ const cities = [
   { name: "Limonest", slug: "limonest", region: "Rhône", preName:"à", preDep:"le" },
   { name: "Lissieu", slug: "lissieu", region: "Rhône", preName:"à", preDep:"le" },
   { name: "Loire-sur-Rhône", slug: "loire-sur-rhone", region: "Rhône", preName:"à", preDep:"le" },
+  { name: "Lyon", slug: "lyon", region: "Rhône", preName:"à", preDep:"le"},
   { name: "Lyon 1 er", slug: "lyon-69001", region: "Rhône", preName:"à", preDep:"le"},
   { name: "Lyon 2 ème", slug: "lyon-69002", region: "Rhône", preName:"à", preDep:"le"},
   { name: "Lyon 3 ème", slug: "lyon-69003", region: "Rhône", preName:"à", preDep:"le"},
