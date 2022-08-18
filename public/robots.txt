@@ -1,4 +1,3 @@
-# *
 User-agent: *
 Allow: /
 
@@ -7,3 +6,4 @@ Host: https://www.redflower-debarras.fr
 
 # Sitemaps
 Sitemap: https://www.redflower-debarras.fr/sitemap.xml
+Sitemap: https://www.redflower-debarras.fr/sitemap-0.xml

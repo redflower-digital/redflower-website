@@ -13,7 +13,8 @@ export default function Index({city}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content={keywords} />
         <meta charSet="utf-8" />
-        <meta name="robots" content="index,follow" />
+        <meta name="robots" content="all" />
+        <meta name="googlebot" content="all"/>
         <link
           rel="shortcut icon"
           type="image/png"

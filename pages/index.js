@@ -42,6 +42,7 @@ export default function Index(props) {
         <meta name="keywords" content={keywords} />
         <meta charSet="utf-8" />
         <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="all"/>
         <link
           rel="shortcut icon"
           type="image/png"
