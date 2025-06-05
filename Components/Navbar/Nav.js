@@ -22,7 +22,7 @@ export default function Nav() {
             <Link href='/'>
             <div className={navStyles.logo}>
               <Image              
-                alt="redflower débarras maison & appartement."
+                alt="redflower débarras maison & appartement"
                 src={Logo}
                 layout="fill"
                 objectFit="contain"
